@@ -19,7 +19,7 @@ import '../assets/css/app.css'
 // JS
 import '../assets/js/vendor/jquery-3.6.3.min.js'
 // import '../assets/js/vendor/calendar/popper.min.js'
-// import '../assets/js/vendor/bootstrap.min.js'
+import '../assets/js/vendor/bootstrap.min.js'
 // import '../assets/js/vendor/slick.min.js'
 // import '../assets/js/vendor/jquery-appear.js'
 // import '../assets/js/vendor/jquery-validator.js'
