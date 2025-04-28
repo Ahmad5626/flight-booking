@@ -5,6 +5,10 @@ const Search = () => {
     const pass=document.getElementById('passenger')
     pass.classList.toggle('d-none')
   }
+  const handlePassenger2=()=>{
+    const pass=document.getElementById('passenger-2')
+    pass.classList.toggle('d-none')
+  }
   return (
     <div>
       <section className="booking mb-20">
@@ -825,15 +829,15 @@ const Search = () => {
                         <div className="vertical-line d-xl-flex d-none" />
                         <div>
                           <div className="custom-sel-input-block">
-                            <div className="h6 color-medium-gray">
+                            <div className="h6 color-medium-gray" >
                               Guests and Room
                             </div>
-                            <div className="room-booking color-black">
+                            <div className="room-booking color-black" onClick={handlePassenger2}>
                               {" "}
                               <span className="total-guest">2</span> Guests /{" "}
                               <span className="guest-class">Room</span>
                             </div>
-                            <div className="passenger-area room-box bg-white light-shadow br-5 p-24">
+                            <div className="passenger-area room-box bg-white light-shadow br-5 p-24 d-none" id="passenger-2">
                               <h4 className="color-black mb-32">Room</h4>
                               <div className="passenger-box mb-24">
                                 <div className="row">
